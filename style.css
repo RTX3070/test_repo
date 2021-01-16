@@ -1,4 +1,5 @@
 body {
+    animation: bgc 2s infinite;
     align-items: center;
     background-color: olive;
     display: flex;
@@ -10,4 +11,12 @@ h1 {
     color: white;
     font-size: 2em;
     text-transform: uppercase;
+}
+
+@keyframes bgc {
+    0% {background-color: olive;}
+    25% {background-color: olivedrab;}
+    50% {background-color: peru;}
+    75% {background-color: saddlebrown;}
+    100% {background-color: salmon;}
 }

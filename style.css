@@ -1,8 +1,13 @@
 body {
+    align-items: center;
     background-color: olive;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
 }
 
 h1 {
-    background-color: purple;
     color: white;
+    font-size: 2em;
+    text-transform: uppercase;
 }
